@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>مستعرض القرآن الكريم</title>
+        <link href="ar.css" rel="stylesheet" type="text/css" />
+        <link href="button.css" rel="stylesheet" type="text/css" />
+        <link href="media.css" rel="stylesheet" type="text/css" />
+        <link href="dorpdown.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Mada&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        
+<meta name="author" content="moh0009">
+<link rel="icon" href="1.png">
+    </head>
+    <body>
+        <section id="all">
+             <div class="dropdown" style="float:left;">
+  <button class="dropbtn"> اختر لغتك</button>
+  <div class="dropdown-content">
+    <a href="tr.html" style="font-family: 'Gloria Hallelujah', cursive;">Türk dili</a>
+     <a href="index.html" style="font-family: 'Gloria Hallelujah', cursive;">English language</a>
+      <a href="ru.html" style="font-family: 'Gloria Hallelujah', cursive;">Русский</a>
+  </div>
+</div> 
+            <h1>مستعرض القرآن الكريم</h1>
+            <img src ="https://quran.ksu.edu.sa/tajweed_png/1.png" alt = "page 1" id = "page">
+            <br>
+            <br>
+            <audio controls autoplay loop src="https://everyayah.com/data/Abdullah_Basfar_32kbps/PageMp3s/Page001.mp3" id ="audio">
+            </audio>
+            <br>
+            <br>
+            <section id="value_form">
+                 <label id ="la">
+                     <input type="text" id="value" min="1" max="604" />
+                     :رقم الصفحة
+                 </label>
+                <br>
+                <br>
+                <button id="b"onclick="go()"><span>شاهد</span></button>
+            </section>            
+        </section> 
+        <script src="script.js"></script>
+    </body>
+</html>
